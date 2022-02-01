@@ -11,6 +11,33 @@ public class Product implements Serializable {
     private String dateimport;
     private String original;
     private Double tax;
+
+	private String dateExport;
+	private String country;
+	private String transportation;
+
+//	variables for Export UI
+	public String getDateExport() {
+		return dateExport;
+	}
+	public void setDateExport(String dateExport) {
+		this.dateExport = dateExport;
+	}
+
+	public String getCountry() {
+		return country;
+	}
+	public void setCountry(String country) {
+		this.country = country;
+	}
+
+	public String getTransportation() {
+		return transportation;
+	}
+	public void setTransportation(String transportation) {
+		this.transportation = transportation;
+	}
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     public String getProductId() 
